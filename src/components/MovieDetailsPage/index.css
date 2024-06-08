@@ -1,0 +1,19 @@
+.movie-details {
+  display: flex;
+  padding: 20px;
+}
+
+.movie-details img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+}
+
+.cast-member {
+  text-align: center;
+}

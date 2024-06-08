@@ -1,0 +1,14 @@
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.movie-card {
+  width: 200px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+}
